@@ -9,6 +9,7 @@ html {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+  color: #02abbb;
 }
 
 body {
@@ -17,14 +18,15 @@ body {
   align-items: center;
   justify-content: center;
   /* background-color: red;*/
-  background-image: url(https://res.cloudinary.com/practicaldev/image/fetch/s--ALXzd10A--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/i/f5tzpogltw730jx3lb56.jpg);
+  background-image: url(https://www.shutterstock.com/image-vector/random-number-generator-on-black-600w-2118151811.jpg);
   background-size: cover;
   opacity: 1;
   min-height: 100vh;
-  color: black;
+  color: white;
 }
 
 .container {
+  background-color: rgb(73, 73, 73);
   border: 5px solid black;
   width: 500px;
   /* background-color: rgb(228, 117, 27); */
@@ -35,12 +37,12 @@ body {
 }
 
 .pw {
-  color: black;
+  color: #02abbb;
   width: 100%;
   margin: 5px;
   padding: 10px;
   border: 2px solid black;
-  background-color: #02abbb;
+  background-color: black;
   font-weight: bold;
   font-size: 19px;
   display: flex;
@@ -53,12 +55,12 @@ body {
   right: 0;
   transition: opacity 0.2s ease, transform 0.2s ease;
   opacity: 1;
-  background-color: #02abbb;
+  background-color: grey;
   ;
   padding: 0.25rem 1rem;
   font-family: inherit;
   font-weight: bold;
-  color: #000;
+  color: black;
   border: none;
   cursor: pointer;
   border: 2px solid black;
@@ -83,8 +85,8 @@ body {
   font-weight: bold;
   font-size: 1.5rem;
   border: none;
-  color: black;
-  background-color: #02abbb;
+  color: #02abbb;
+  background-color: black;
   cursor: pointer;
   border: 2px solid black;
   border-radius: 22px;
